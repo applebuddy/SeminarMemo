@@ -1,5 +1,5 @@
 
-/// MARK: - JSON, 고차함수 활용 연습 
+// MARK: - JSON, 고차함수 활용 연습
 
 import Foundation
 
@@ -13,7 +13,7 @@ import Foundation
     ...
  ]
  */
-//let champsFilePath = Bundle.main.path(forResource: "champs", ofType: "json")
+// let champsFilePath = Bundle.main.path(forResource: "champs", ofType: "json")
 
 /*
  [
@@ -35,11 +35,11 @@ let selectedIndexes = try JSONSerialization.jsonObject(with: selectedIndexesData
 var names = [String]()
 var indexes = [Int]()
 
-let champsArray = champs as! [[String:Any]]
+let champsArray = champs as! [[String: Any]]
 let indexesArray = selectedIndexes as! [Int]
 
-indexesArray.forEach { (index) in
-    champsArray.forEach { (champ) in
+indexesArray.forEach { index in
+    champsArray.forEach { champ in
         if String(index) == champ["key"] as! String {
             print(champ["id"]!)
         }
