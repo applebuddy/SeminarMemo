@@ -107,7 +107,7 @@
 
 ## 4-1) 스타트업의 실패
 
-- By 강찬
+###### Speaker 강찬
 
 <br>
 
@@ -154,7 +154,7 @@
 
 ## 5-1) 협업 프로세스 노하우
 
-###### By Speaker, 백경준 : Big- pearl에서 백엔드로서 일하고 있습니다.
+###### Speaker, 백경준 : Big- pearl에서 백엔드로서 일하고 있습니다.
 
 
 
@@ -237,6 +237,132 @@
   - 문제에 대한 좋아요, 관심도, 피드백 등 
 - 프로세스에 대한 문서 
 - 일반 적인 관리 팁 문서
+
+
+
+<br>
+
+<br>
+
+
+
+## 7-1) 프로그라피의 전과 후
+
+###### Speaker, 김선욱
+
+- 재수 후 컴공과 대학 입학
+- 군대 때 레이더운용병으로 ... 
+- 전역 후 혼밥
+
+### 복학버프가 있겠지?
+
+- 기본없이 코딩하고.. 외롭고.. 진로 고민...
+
+### 스타트업이 하고 싶다!
+
+- 중국 스타트업을 구경 
+  - 증국 스타트업을 위해선 중국어를 알아야 겠다...
+  - 생각보단 별로 였음. 그냥 따로 공부할걸
+
+## 스터디를 하자
+
+- 중국에서 알고리즘 스터디
+- 프로그라피 발견
+- 앨리스 코딩
+- 카페 코딩 ...
+- 할 수 있는 스터디는 다 했음.
+
+## 탈주
+
+- 더이상 안되겠다.
+  - 개발 공부하고 싶어하는 주니어들 끼리 만 있다보니 한계가 있었음
+  - 기대 이하의 성과...
+
+## 새로운 도전
+
+- 프로그라피 참여
+  - 프로젝트를 하기 위해 참여하게 됨
+  - 방구석에서 코딩만 하다가 프로그라피와서 주변 구경...
+  - 그러다가 팀명 짓고 참여 
+
+- 코드스쿼드 수업 참여
+  - 
+
+
+
+### 그러던 어느 날 
+
+- 강재윤 : 우리 회사에서 같이 일해볼래??
+- 킥보드 공유 회사 취업
+  - RN 개발자를 구하는 중 
+
+
+
+### 내가 느끼는 현실
+
+- 스타트업이 엄청 재밌을 줄 알았는데 되게 힘들었음.
+- 아직 1년차도 아니지만 논리적으로 생각하는 것이 있음.
+  - 실제 스타트업 일과 프로그라피 활동 간의 차이는 많이 크더라...
+  - 코딩하다가 어려우면 난이도 낮춰 적응 하고, 익숙하지면 난이도 높이고... 조절 
+
+
+
+<br><br>
+
+
+
+## 9) QA
+
+- **Quality Assurance**
+- by 김선우
+
+<br>
+
+### QA가 없으면? 
+
+- 배포 후에 뒤늦게 주말에 버그를 수정해야 한다거나 등의 예상치 못한 문제가 생길 수 있다. 
+
+<br>
+
+### QA 준비하기
+
+- 테스트 케이스 분석 작성
+  - 기능, 화면 등으로 분류
+    - 로그인 창 QA Ex) 로그인(이메일, 비밀번호, 버튼), 회원가입(이메일, 비밀번호, 버튼), 인증(전화번호, 버튼)
+    - **네트워크를 껐을때의 반응, 로딩 중 다른 작업의 실행, 동시 입력, 대량의 데이터입력, 화면회전, background이동, 태블릿 등의 호환 여부** 등
+    - 엑셀 등으로 구간 별 테스트 결과를 정리할 수 있다.
+
+<br>
+
+### 테스트 준비
+
+- Ex) 비밀번호를 입력 안하고 로그인을 눌렀더니 앱이 죽음. ㅠ.ㅠ....
+  - 개발자에게 알리고자 한다면 어떻게 해야하냐??
+    - **피드백은 안되는 내용 + 화면 등 최대한 상세하게 적어주면 좋음**
+
+
+
+<br>
+
+
+
+### 테스트 시작!
+
+- **서버 - 클라이언트 등 간 서로의 입장을 이해하고 서로 각자의 다른 분야를 이해하고 테스트해보는 것이 중요**
+- 
+
+<br>
+
+### 협업 도구 추천
+
+- Jira
+  - 트렐로랑 비슷함
+  - 이슈만들기 가능 (이슈의 중요도 설정도 가능)
+- 
+
+<br>
+
+
 
 
 <br>
@@ -387,173 +513,3 @@
 
 - 깃허브의 잔디를 꾸준히 심으면 좋은 인상을 받을거다.
 
-  <<<<<<< HEAD
-  =======
-
-# Let's Swift 
-
-- Let's Swift 세미나 내용
-
-
-
-# Let's Swift 
-
-- Looper() 를 통한 애니메이션 처리를 할 수 있음.
-- 애니메이션 순차처리 또한 looper를 활용할 수 있다. 
-
-~~~ swift 
-var res1: Response!: var res2: Response!
-loooper.invoke { dsl in 
-               fetch1 { r in res1 = r}
-               dsl.isInfinity = true
-                dsl.block = P item in 
-                if res1 != nil ....
-               .....
-               }
-~~~
-
-<br>
-
-- Flow - async Tasking
-  - Flow의 클래스 선언 
-
-~~~ swift
-Flow()
-.async { sync in
-       // start가 불리면 즉시 실행되는 영역
-       fetch1 { r in  // 페치가 끝나고 sync가 불려지면, section1.render를 실행 후 빠져나간다. 
-             // 순차 보장 처리 
-         		 sync {section1.render(with: r)}}
-       }
-.async { sync in
-       // start가 불리면 즉시 실행되는 영역
-       fetch2 { r in 
-             // 순차 보장 처리 
-         		 sync {section1.render(with: r)}}
-       }
-.start()
-~~~
-
-~~~swift
-/// flow 클래스의 구현
-class Flow {
-  private class Block {
-    static let TypeAsync = "async"
-    var type: String
-    let body: Any
-    init(type: String, body: Any) {
-      self.type = type
-      self.body = body
-    }
-  }
-}...
-
-/*
-class Flow {
-  private class Block {
-    
-  }
-}
-*/
-// 어려운 주제라 잘 이해못함.. ㅠ.ㅠ
-~~~
-
-<br>
-
-
-## 최완복님 세션, 함수형 프로그래밍 
-
-- Lets Swift 2019 실용적인 함수형 프로그래밍 워크샵
-- 인지도 복잡도 점수
-  - 인지적 복잡도를 수치화한 개념
-  - -SonarQube의 지표 중 하나.
-  - 규칙
-    - 심리적인 복잡도의 증가는 좋은코드를 짜지 못하게 한다. 
-    - for, if 등이 있을때마다 점수가 추가, 콜백hell / if else 파동권.. 등을 만날때마다 nesting점수가 쌓인다.
-
-
-
-순수함수(Pure Function) 
-
-  - 동일한 input에 동일한 output, 부작용 없음
-
-익명함수(Anonymous function)
-...
-
-### forEach
-
-- For0in-loop와 유사한 동작
-- loop와 달리 중간에 종료 불가
-
-~~~ swift 
-["This","is","Spatal!"].forEach {
-  	print("\($0)")
-}
-
-~~~
-
-### filter
-
-- 조건에 부합하는 요소(Element)들을 걸내기 위한 함수 
-
-### first
-
-- 조건에 해당하는 처음 요소 혹은 마지막 요소를 가져오는 함수 
-
-
-
-### reduce
-
-- 모든 요소들을 이용해서 하나의 최종결과를 만들어내는 함수 
-
-
-
-### map
-
-- 원래의 요소들을, 같거나 다른 Typedml dythfh qusghks(Transform) 하는 함수
-
-### flatMap
-
-- map + flatten 시킨 결과물을 반환 
-
-~~~ swift 
-[[1,2,3], [3,4,5], []]
-.flatMap { (numberList) -> [Int] in 
-         return numberList.map {#0 * #0}}
-// [1,2,9,16,25,36]
-~~~
-
-- flatMap in Optional
-  - ​	변환(Transform) 실패에 대응
-
-
-
-### Monad
-
-- 값(Value)를 담은 Context로 되어있고, flatMap function을 지원하는 것 
-
-
-
-### compactMap
-
-- flatMap에 이어 compactMap이 분리된 이유 
-  - context의 타입이 바퀴는 것이 이상함 
-
-
-
-* tip) 뛰어난 개발자는 소통능력이 뛰어나다 
-
-forEach, filter, first/last(where:), reduce
-map, flatMap, compactMap
-
-
-
-## Functor, Monad
-
-### container (혹은 Context / Wrapper) 
-
-- Array, Dictionary, REsult, Optional 등 
-- Functor는 map
-- Monad는 flatMap
-
->>>>>>> a65e469a9d9ee069ac5936403d2fd4f9c84e2c3b
