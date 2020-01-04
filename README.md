@@ -362,7 +362,45 @@
 
 <br>
 
+<br>
 
+<br>
+
+## 10) 서비스의 주인이 된다는 것
+
+- by 강재윤
+
+<br>
+
+### 개발자로써 유의해야할 점
+
+- 전체 시스템을 구축해보는 경험, 중요성과 어려움
+  - 스타트업일 수록 그 비중이 큼
+  - 전체 시스템을 구성해본다는 것은 좋은 경험
+- Split test & Production Environment
+  - 테스트 목적 데이터가 메인DB에 들어가는 상황
+  - 테스트영역과 실제 배포영역을 분리해야한다. 
+- API Request & Response Logging
+  - 요청 로그 등을 기록해두면 좋다.
+  - Stack, File 형식
+
+- Read Replica Database
+  - 마스터 DB에 직접 쿼리를 날리면 쿼리에 문제가 있을때 DB가 순간 먹통이 되는 수가 있다.
+- Appropriate Technical Dept
+  - 기술 부채(Technical Dept) 란? : 언젠간 갚아야 하는 빚 (나중에 결국 뜯어 고쳐야 하는 소요)
+  - 부채가 쌓인다 하더라도 이를 고치고자하는 욕망을 참아야할 수 있다. 
+    - 부채가 쌓이더라도 일단 서비스를 내기 위해서는 부채에 대한 해결욕구를 참아야할 때가 있다. 
+- Code Refactoring & Boy Scout Principle 
+  - 쌓인 기술 부채는 Refactoring을 하면된다. 
+    - Refactoring은 한번에 다 끝낸다는 생각을 하면 부담이 크다. 
+    - 점진적으로 Refactoring을 진행하는 것이 좋다. 
+- Test Code
+  - postMan등을 통해 테스트케이스를 만들고 하는게 규모가 커지면 제한될 수 있다. 
+    - 여러 API를 동시에 테스트해야하는 경우 등
+    - 이럴때는 테스트코드를 작성해야할 수 있다. 
+- Recording Expiration dates
+  - 만료기간 기록하기
+- Avoid Forced Update
 
 
 <br>
